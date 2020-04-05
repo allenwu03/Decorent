@@ -1,0 +1,102 @@
+
+ul,ol { margin: 0; }
+  
+ul li,ol li { list-style: none; }
+
+.footer-logo img{
+  height: auto;
+  max-width: 100%; 
+  width: 5rem;
+}
+
+/* Spacing */
+.mb-30 {
+  margin-bottom: 30px !important; }
+
+.mr-50 {
+  margin-right: 50px !important; }
+
+/* :: 11.0 Footer Area CSS */
+.footer_area {
+  position: relative;
+  background-color: #252525;
+  padding: 40px 0 0; }
+  .footer_area .single_widget_area .footer_menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .footer_area .single_widget_area .footer_menu ul li a {
+      font-size: 1.4rem;
+      color: rgba(255, 255, 255, 0.6);
+      display: block;
+      font-weight: 400;
+      font-family: "Ubuntu", sans-serif;
+      padding: 0 10px;
+      text-transform: capitalize; }
+      .footer_area .single_widget_area .footer_menu ul li a:hover, .footer_area .single_widget_area .footer_menu ul li a:focus {
+        transition: color .5s;
+        text-decoration: none;
+        color: #ffffff; }
+  .footer_area .single_widget_area .footer_widget_menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .footer_area .single_widget_area .footer_widget_menu li {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      width: 50%; }
+      .footer_area .single_widget_area .footer_widget_menu li a {
+        display: block;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.6);
+        display: block;
+        font-weight: 400;
+        margin-bottom: 10px; }
+        .footer_area .single_widget_area .footer_widget_menu li a:hover, .footer_area .single_widget_area .footer_widget_menu li a:focus {
+          transition: color .5s;
+          text-decoration: none;
+          color: #ffffff;  }
+  .footer_area .single_widget_area .footer_heading h6 {
+    color: #ffffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+  .footer_area .single_widget_area .subscribtion_form form {
+    position: relative;
+    width: 270px; }
+    @media only screen and (max-width: 767px) {
+      .footer_area .single_widget_area .subscribtion_form form {
+        margin-bottom: 50px; } }
+    .footer_area .single_widget_area .subscribtion_form form input {
+      width: 100%;
+      border: none;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 12px;
+      height: 35px;
+      background-color: transparent; }
+      .footer_area .single_widget_area .subscribtion_form form input:focus {
+        border-bottom-color: #ffffff;
+        color: #ffffff; }
+    .footer_area .single_widget_area .subscribtion_form form button {
+      width: 30px;
+      height: 35px;
+      border: none;
+      background-color: transparent;
+      color: rgba(255, 255, 255, 0.6);
+      position: absolute;
+      top: 0;
+      right: 0;
+      text-align: center;
+      z-index: 10; }
+  .footer_area .single_widget_area .footer_social_area a {
+    color: #ffffff;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 16px; }
+
+
+/*# sourceMappingURL=core-style.css.map */
